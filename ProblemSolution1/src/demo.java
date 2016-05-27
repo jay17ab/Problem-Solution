@@ -36,7 +36,6 @@ public class demo {
         Scanner sc =new Scanner(System.in);
         int i,j;
         
-        
         System.out.printf("Enter No of rows: ");
         int m=sc.nextInt();
         System.out.printf("Enter No of columns: ");
