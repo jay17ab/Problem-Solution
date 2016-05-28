@@ -45,7 +45,6 @@ public class demo {
         Scanner sc =new Scanner(System.in);
         int i,j;
         
-        
         System.out.printf("Enter No of rows: ");
         int m=sc.nextInt();
         System.out.printf("Enter No of columns: ");
@@ -54,7 +53,6 @@ public class demo {
         int[][] a =new int[m][n];
         int[][] b =new int[m][n];
         int[][] s =new int[m][n];
-        
         
         System.out.println("Enter Matrix1 elements:"+m+"X"+n+": ");
         for(i=0;i<m;i++)
@@ -89,7 +87,6 @@ public class demo {
         Scanner sc =new Scanner(System.in);
         int i,j;
         
-        
         System.out.printf("Enter No of rows: ");
         int m=sc.nextInt();
         System.out.printf("Enter No of columns: ");
@@ -98,7 +95,6 @@ public class demo {
         int[][] a =new int[m][n];
         int[][] b =new int[m][n];
         int[][] s =new int[m][n];
-        
         
         System.out.println("Enter Matrix1 elements:"+m+"X"+n+": ");
         for(i=0;i<m;i++)
@@ -153,7 +149,6 @@ public class demo {
         int[][] b =new int[m1][n1];
         int[][] s =new int[m][n1];
         
-        
         System.out.println("Enter Matrix1 elements:"+m+"X"+n+": ");
         for(i=0;i<m;i++)
         {
@@ -171,7 +166,6 @@ public class demo {
             }
         }
         System.out.println("Multiplication of "+m+"X"+n+" and "+m1+"X"+n1+" Matric gives: "+m+"X"+n1+" Matrix: ");
-        
         
         for(i=0;i<m;i++)
         {
